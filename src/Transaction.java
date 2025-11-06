@@ -33,8 +33,8 @@ public class Transaction {
         return timestamp;
     }
     public String toString(){
-        return "Transaction id : " + txnId+
-                "\nAccount Id : " + accountId + "\n"+
+        return "Transaction id : " + txnId+"\n"+
+                "Account Id : " + accountId + "\n"+
                 "Account Type : " + accType + "\n"+
                 "Amount : Rs. " + amount;
     }

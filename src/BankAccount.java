@@ -38,7 +38,7 @@ public class BankAccount {
         }
         this.balance -= amount;
         receiver.balance += amount;
-        System.out.println("Transfer successful: Rs."+amount+" from "+this.name+" to "+reciever.name);
+        System.out.println("Transfer successful: Rs."+amount+" from "+this.name+" to "+receiver.name);
         return true;
     }
     public double getBalance(){
