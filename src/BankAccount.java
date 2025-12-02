@@ -44,6 +44,9 @@ public class BankAccount {
     public double getBalance(){
         return this.balance;
     }
+    public String getAccType(){
+        return this.accType;
+    }
     public String getSummary(){
         return "Name : "+this.name+"\n"+
         "Account Type :"+this.accType+"\n"+
