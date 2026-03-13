@@ -19,4 +19,5 @@ public class BankService {
     public boolean withdraw(String username, double amount) {
         return accountDAO.getAccount(username).withdraw(amount);
     }
+    
 }
